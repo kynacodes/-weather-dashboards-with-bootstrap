@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="eng">
+<link rel="stylesheet" href="Web-Design-Challenge.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+</head>
+
+<body>
+
+    <!--BANNER AT TOP OF PAGE-->
+    <!-- <div>
+    <h1>Latitude</h1> -->
+
+    <!--UDEMY CLASS NAVBAR-->
+
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Latitude</a>
+        </div>
+        <!--W3 SCHOOLS ATTEMPT AT DROPDOWN-->
+        <ul class="navbar list-inline">
+            <li>
+                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Plots<span
+                        class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="Max_Temperature.html">Max Temperatures</a></li>
+                    <li><a href="Humidity.html">Humidity</a></li>
+                    <li><a href="Cloudiness.html">Cloudiness</a></li>
+                    <li><a href="Wind_Speed.html">Wind Speed</a></li>
+                </ul>
+            </li>
+            <li class="nav-selection"><a href="Comparisons_Page.html">Comparison</a></li>
+            <li class="nav-selection"><a href="Data_Page.html">Data</a>
+            </li>
+        </ul>
+        <!-- <ul class="nav navbar-nav navbar-right">
+            <div class="dropdown">
+                <button type="button" class="btn btn-dfefault dropdown-toggle" type="button" id="plots"
+                    data-toggle="dropdown">Plots <span class="caret"></span></button></button>
+            </div> -->
+        <!-- 
+    <ul class="dropdown-menu">
+
+        <li role="presentation"><a role="menuitem" href="#">Max Temperature</a></li>
+    </ul>
+    
+    <ul>
+        <li><a class="dropdown-item" href="C:\Users\kynat\OneDrive\Desktop\Web Visualizations\Comparisons_Page.html"></a></li>
+        <li class="nav-selection">Comparison<a href="C:\Users\kynat\OneDrive\Desktop\Web Visualizations\Comparisons_Page.html"></a></li>
+        <li class="nav-selection">Data<a href="C:\Users\kynat\OneDrive\Desktop\Web Visualizations\Data_Page.html"</a></li>
+    </ul> -->
+    </nav>
+
+
+
+    <!--MAIN TEXT BLOCK-->
+    <!--Check positioning of blocks (they change with screen size)-->
+    <!--Will have to wrap the text around the graph image  n-->
+    <div class="main-background">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="display-boxes col-lg-8 col-md-8 col-sm-12">
+                    <div class="main-headings">
+                        <h1>Summary: Latitude vs. X</h1>
+                        <hr>
+                    </div>
+                    <img class="main-text" src="Viz_Max_Temp.png" alt="Graph of City Latitude versus Max Temperature">
+                    <p>
+                        The purpose of this project was to analyze how weather changes as you get
+                        closer to the equator. To accomplish this analysis, we first pulled data
+                        from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    </p>
+                    <p>
+                        After assembling the dataset, we used Matplotlib to plot various aspects
+                        of the weather vs. latitude. Factors we looked at included: temperature,
+                        cloudiness, wind speed, and humidity. This site provides the source data
+                        and visualizations created as part of the analysis, as well as explanations
+                        and descriptions of any trends and correlations witnessed.
+                    </p>
+                </div>
+                <!--SIDEBAR WITH VISUALIZATION LINKS-->
+                <!--Check positioning of blocks (they change with screen size)-->
+                <div class="display-boxes col-lg-4 col-md-4 col-sm-12">
+                    <div class="main-headings row">
+                        <h3>Visualizations</h3>
+                    </div>
+                    <a href="Max_Temperature.html" class="col-lg-6 col-md-6 col-sm-3">
+                        <img class="side-img " src="Viz_Max_Temp.png"
+                            alt="Graph of City Latitude versus Max Temperature"></a>
+
+
+                    <a href="Humidity.html" class="col-lg-6 col-md-6 col-sm-3">
+                        <img class="side-img" src="Viz_Humidity.png"></a>
+
+                    <a href="Cloudiness.html" class="col-lg-6 col-md-6 col-sm-3">
+                        <img class="side-img" src="Viz_Cloudiness.png"></a>
+
+
+                    <a href="Wind_Speed.html" class="col-lg-6 col-md-6 col-sm-3">
+                        <img class="side-img" src="Viz_Wind_Speed.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!--BOTTOM OF PAGE COPYRIGHT BLOCK-->
+    <div class="copyright-ribbon">
+        <div class="text-details">
+            <p>Copyright Coding Bootcamp 2017</p>
+
+        </div>
+    </div>
+    </div>
+    <!--NAVIGATION BAR-->
+    <!--  <div class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul>
+                <li>Plots</li>
+                <li class="nav-selection">Comparison<a href="C:\Users\kynat\OneDrive\Desktop\Web Visualizations\Comparisons_Page.html">Comparison</a></li>
+                <li class="nav-selection">Data<a href="C:\Users\kynat\OneDrive\Desktop\Web Visualizations\Data_Page.html"</a></li>
+            </ul>
+    </div>
+
+</div> -->
+
+</body>
+
+</html>

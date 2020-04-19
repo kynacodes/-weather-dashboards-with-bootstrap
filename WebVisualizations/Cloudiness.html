@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="eng">
+<link rel="stylesheet" href="Web-Design-Challenge.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cloudiness Viz</title>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Latitude</a>
+        </div>
+        <!--W3 SCHOOLS ATTEMPT AT DROPDOWN-->
+        <ul class="navbar list-inline">
+            <li>
+                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Plots<span
+                        class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="Max_Temperature.html">Max Temperatures</a></li>
+                    <li><a href="Humidity.html">Humidity</a></li>
+                    <li><a href="Cloudiness.html">Cloudiness</a></li>
+                    <li><a href="Wind_Speed.html">Wind Speed</a></li>
+                </ul>
+            </li>
+            <li class="nav-selection">Comparison<a
+                    href="Comparisons_Page.html"></a></li>
+            <li class="nav-selection">Data<a
+                    href="Data_Page.html"></a>
+            </li>
+        </ul>
+    </nav>
+
+      <!--MAIN TEXT BLOCK-->
+    <!--Check positioning of blocks (they change with screen size)-->
+    <!--Will have to wrap the text around the graph image  n-->
+    <div class="main-background">
+
+        <div>
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-sm-6 display-boxes">
+                        <div class="main-headings">
+                            <h1>Summary: Latitude vs. Cloudiness</h1>
+                            <hr>
+                        </div>
+                        <img class="main-text" src="Viz_Cloudiness.png" alt="Graph of City Latitude versus Max Temperature">
+                
+                    </div>
+                    <!--SIDEBAR WITH VISUALIZATION LINKS-->
+                    <!--Check positioning of blocks (they change with screen size)-->
+                    <div class="col-sm-2 display-boxes">
+                        <div class="row">
+                            <div class="main-headings">
+                                <h3>Visualizations</h3>
+                                <hr />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img class="side-img upper-left" src="Viz_Max_Temp.png"
+                                alt="Graph of City Latitude versus Max Temperature">
+                            <img class="side-img upper-right" src="Viz_Humidity.png">
+                        </div>
+                        <div class="row">
+                            <img class="side-img bottom-left" src="Viz_Cloudiness.png">
+                            <img class="side-img bottom-right" src="Viz_Wind_Speed.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>       
+
+    </div>
+    <div class="copyright-ribbon" <!--BOTTOM OF PAGE COPYRIGHT BLOCK-->
+        <div class="text-details" <p>Copyright Coding Bootcamp 2017</p>
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html> 
